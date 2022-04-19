@@ -54,13 +54,18 @@ a{
     text-decoration: none;
 }
 
-.web-pages .link:hover,
-.web-pages .link:focus{
+.link{
+    color: var(--main-color);
+}
+
+.active{
     color: var(--brand-color);
 }
 
-.web-pages .link:active{
-    color: var(--brand-color); 
+.link:hover,
+.link:focus,
+.link:active{
+    color: var(--brand-color);
 }
 
 .contact{

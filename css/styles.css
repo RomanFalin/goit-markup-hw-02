@@ -32,13 +32,11 @@ a{
 
 .main-logo{
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.9;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     color: var(--main-color);
-    text-decoration: none;
 }
 
 .main-logo-first{
@@ -47,11 +45,10 @@ a{
 
 .web-pages{
     font-weight: 500;
-    line-height: 1;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--main-color);
     list-style-type: none;
-    text-decoration: none;
 }
 
 .link{
@@ -70,7 +67,7 @@ a{
 
 .contact{
     font-weight: 500;
-    line-height: 1;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--sub-text-color);
     text-decoration: none;
@@ -99,7 +96,7 @@ ul{
 .hero-title{
     font-weight: 900;
     font-size: 44px;
-    line-height: 3.8;
+    line-height: 1.3;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -112,7 +109,7 @@ ul{
     border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.9;
+    line-height: 1.8;
     display: flex;
     align-items: center;
     text-align: center;
@@ -121,24 +118,22 @@ ul{
     cursor: pointer;
 }
 
-.hero-button:hover{
-    background-color: var(--button-color);
-}
-
-.hero-button:focus {
+.hero-button:hover,
+.hero-button:focus{
     background-color: var(--button-color);
 }
 
 .features{
     font-weight: 700;
-    line-height: 1;
+    font-size: 14px;
+    line-height: 1.1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--main-color);
 }
 
 .features-explain{
-    line-height: 1.5;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--sub-text-color);
 }
@@ -146,7 +141,7 @@ ul{
 .what-do{
     font-weight: 700;
     font-size: 36px;
-    line-height: 2.6;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-color);
@@ -159,7 +154,7 @@ ul{
 .team-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 2.6;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-color);
@@ -200,7 +195,7 @@ ul{
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.9;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     color: var(--back-color);
     text-decoration: none;
@@ -215,21 +210,21 @@ ul{
 }
 
 .phy-address{
-    line-height: 1.5;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--back-color);
     text-decoration: none;
 }
 
 .address{
-    line-height: 1.5;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--sub-text-color);
     text-decoration: none;
 }
 
 .filter-button{
-    background: var(--back-color);
+    background: #F5F4FA;;
     border-radius: 4px;
     width: 128px;
     font-weight: 500;
@@ -240,16 +235,7 @@ ul{
     color: var(--main-color);
 }
 
-.filter-button:hover{
-    background: var(--brand-color);
-    color: var(--back-color);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-    0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-    cursor: pointer;
-}
-
+.filter-button:hover,
 .filter-button:focus{
     background: var(--brand-color);
     color: var(--back-color);
@@ -270,14 +256,14 @@ ul{
 .work-title{
     font-weight: 700;
     font-size: 18px;
-    line-height: 2.3;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: var(--main-color);
 }
 
 .work-explain{
     font-size: 16px;
-    line-height: 1.9;
+    line-height: 1.8;
     letter-spacing: 0.03em;
     color: var(--sub-text-color);
 }
